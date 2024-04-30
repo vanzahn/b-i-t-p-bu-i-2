@@ -1,0 +1,697 @@
+anh.img
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="moanh.css" />
+  </head>
+  <body>
+    <h1>
+      The opacity property is often used together with the:hover selector to
+      change the opacity on mouse-over:
+    </h1>
+    <div class="anh">
+      <img src="./anh.img/lotus-1.png" alt="" />
+      <img src="./anh.img/lotus-2.png" alt="" />
+      <img src="./anh.img/vnp_lotus_1_of_2.jpg.webp" alt="" />
+      <img src="./anh.img/avatar.ipg" alt="" />
+    </div>
+  </body>
+</html>
+
+
+.anh {
+  display: flex;
+}
+.anh img {
+  width: 50vh;
+  height: 50vh;
+}
+.anh img:hover {
+  opacity: 0.5;
+}
+
+bai1buoi2:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TestLab1</title>
+    <link rel="stylesheet" href="bai1buoi2.css" />
+    <style>
+      ol {
+        border-style: dashed;
+        border-width: 4px;
+        border-color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--header-->
+    <div id="header">
+      <h3>Đây là web page dành cho sinh viên thực hành trong buổi lab3</h3>
+    </div>
+    <!--end  header-->
+    <!--main content-->
+    <div id="contentarea">
+      <h1>Chào mừng bạn đã đến với khóa học XHTML</h1>
+      <p>
+        XHTML phiên bản 1.0 được trở thành một W3C Recommendation vào ngày 26
+        tháng 01 năm 2000. W3C đã chỉ định rõ XHTML là phiên bản cuối cùng của
+        ngôn ngữ HTML. XHTML dần dần sẽ thay thế hoàn toàn ngôn ngữ HTML
+      </p>
+      <ol>
+        <li>
+          XHTML là từ viết tắt chữ cái đầu của cụm từ EXtensible HyperText
+          Markup Language.
+        </li>
+        <li>XHTML được xây dựng nhằm để thay thế ngôn ngữ HTML</li>
+        <li>HTML gần như giống hệt với ngôn ngữ HTML phiên bản 4.01</li>
+        <li>XHTML chặt chẽ và gọn gàng hơn các phiên bản ngôn ngữ HTML</li>
+        <li>XHTML là HTML được định nghĩa bởi một ứng dụng XML</li>
+      </ol>
+      <a href="#">more about these requirements</a>
+    </div>
+    <!--end main  content-->
+    <!--navigation-->
+    <div id="navigation">
+      <h3 style="font-size: 16px; color: #f00">
+        Tất cả các trình duyệt Web mới đều hỗ trợ XHTML
+      </h3>
+      <p>
+        XHTML là tương thích với HTML phiên bản 4.01. Tất cả các trình duyệt mới
+        bây giờ đều hỗ trợ XHTML nên các bạn không phải lo ngại khi quyết định
+        ưử dụng ngôn ngữ XHTML.
+      </p>
+      <ul>
+        <li>
+          <a href="https://support.microsoft.com/vi-vn/windows"
+            >Internet Explore</a
+          >
+        </li>
+        <li>
+          <a href="https://www.mozilla.org/en-US/firefox/fx/"
+            >Mozilla Firefox</a
+          >
+        </li>
+        <li>
+          <a href="http://www.google.com/chrome/index.html">Google Chrome</a>
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/url?sa=D&q=http://www.opera.com/download/&ust=1714400700000000&usg=AOvVaw1vhknf-XFMyd3cIYFt6_La&hl=vi"
+            >Opera</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!--end navigation-->
+    <!--footer-->
+    <div id="footer">
+      <p>&copy; 2021 HNMU KHTN&CN.</p>
+    </div>
+    <!--end footer-->
+  </body>
+</html>
+
+*{
+  background-color: #009294;
+  color: #ffff;
+}
+h1 {
+  background-color: yellow;
+  text-align: center;
+}
+
+
+bai2-1buoi2:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bai2-1buoi2.css" />
+  </head>
+  <html>
+    <body>
+      <h1 class="tieude">
+        40 năm nhìn lại Windows 1.0: Thất bại tạo nên thành công cho hệ điều
+        hành phổ biến nhất ngày nay
+      </h1>
+      <h2>
+        Tính đến nay, Windows 1.0 đã gần 40 năm tuổi và nó đã giúp ích rất nhiều
+        cho Microsoft trong công cuộc chinh phục thị trường hệ điều hành máy
+        tính.
+      </h2>
+      <ul>
+        <li>
+          <a href=""
+            >Thế giới di động cân nhắc đóng 200 cửa hàng, Chủ tịch Nguyễn Đức
+            Tài từng có quan điểm về vấn đề này ra sao vào 7 tháng trước?</a
+          >
+        </li>
+        <li>
+          <a href=""
+            >Thị trường giao đồ ăn tại Việt Nam khốc liệt đến mức nào mà BEAMIN
+            phải ngậm ngùi rút lui?
+          </a>
+        </li>
+        <li>
+          <a href=""
+            >Trong khi Huawei, Xiaomi gấp rút làm xe ô tô điện, Apple thờ ơ,
+            iCar vẫn chỉ là tin đồn</a
+          >
+        </li>
+        <li>
+          <a href=""
+            >BAEMIN tuyên bố rời khỏi Việt Nam khiến dân tình tiếc nuối vì mất
+            đi một ứng dụng giao đồ ăn quen thuộc</a
+          >
+        </li>
+      </ul>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/anh-cover-1-1700880668257-1700880669711755893484.jpg"
+        alt=""
+      />
+      <p>
+        Microsoft ra mắt Windows 1.0 vào tháng 11 năm 1983. Windows 1.0 đánh dấu
+        sự bắt đầu cho thương hiệu Windows vẫn thống trị thị trường hệ điều hành
+        máy tính ngày nay. Chúng ta hãy cùng nhìn lại sự ra mắt mang tính lịch
+        sử của Microsoft Windows 1.0 sau 40 năm.
+      </p>
+      <p style="font-weight: bold">
+        Apple Lisa: Phát súng bắt đầu cuộc đua thay đổi hệ điều hành máy tính
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-1700880671623164687037.jpg"
+        alt=""
+      /><br />
+      <p style="font-style: italic; text-align: center">
+        Steve Jobs bên cạnh chiếc Apple Lisa
+      </p>
+      <p>
+        Vào đầu những năm 1980, hệ điều hành máy tính không hề giống với những
+        gì chúng ta biết hiện nay. Chúng hoạt động dựa trên các dòng lệnh, sử
+        dụng thông qua cách nhập lệnh văn bản. Tuy nhiên, một cuộc cách mạng GUI
+        (giao diện đồ họa người dùng) đang diễn ra trong ngành công nghệ. Apple
+        đã tự đặt mình vào vị trí dẫn đầu trong cuộc cách mạng đó khi cho ra mắt
+        Lisa vào đầu năm 1983. Đó là một trong những chiếc PC đầu tiên có giao
+        diện người dùng đồ họa, cho phép người dùng mở các chương trình và tập
+        tin bằng chuột. Tuy nhiên, vấn đề với Apple Lisa là nó quá cao cấp. Đó
+        là chiếc máy tính đi trước thời đại với thông số kỹ thuật rất cao đối
+        với một chiếc PC đầu những năm 1980. Điều này khiến Lisa trở nên cực kỳ
+        đắt đỏ, với giá khởi điểm xấp xỉ 10.000 USD. Hầu hết người dùng sẽ chọn
+        PC IBM rẻ hơn.
+      </p>
+      <p p style="font-weight: bold" class="bold">
+        Microsoft ra mắt Windows 1.0 tại COMDEX
+      </p>
+      <p>
+        Tuy nhiên, Lisa vẫn khiến nhiều người trong ngành công nghệ phải chú ý
+        nhờ hệ điều hành giao diện đồ họa mang tính cách mạng (tiền thân của
+        Macintosh). Để đáp lại Lisa, Microsoft đã bắt đầu dự án hệ điều hành GUI
+        có tên mã là Interface Manager (Trình quản lý giao diện). Bill Gates
+        công bố Windows 1.0 tại khách sạn Plaza ở New York vào ngày 10 tháng 11
+        năm 1983.
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-1700880673217889914177.jpg"
+        alt=""
+      />
+      <br />
+      <p style="font-style: italic; text-align: center" ;>
+        Bill Gates công bố dự án hệ điều hành mới
+      </p>
+      <p>
+        Khi Microsoft công bố Windows 1.0, công ty cho biết đây là phần mở rộng
+        của MS-DOS. Microsoft kỳ vọng Windows 1.0 sẽ mở rộng môi trường phát
+        triển phần mềm MS-DOS bằng cách cho phép các nhà phát triển tạo ra nhiều
+        chương trình có điều hướng đồ họa hơn. Do đó, hệ điều hành Windows đầu
+        tiên chỉ giống như một bổ sung cho MS-DOS hơn là một sự thay thế.
+      </p>
+      <p>
+        Microsoft đã trình diễn bản preview Windows 1.0 đầu tiên tại COMDEX
+        (triển lãm thương mại máy tính) vào tháng 11 năm 1983. Thế giới lần đầu
+        tiên nhìn thấy hệ điều hành Windows trên màn hình màu xanh lá cách đây
+        40 năm. Nền tảng Windows đầu tiên cho phép người dùng truy cập nhiều
+        chương trình đang chạy bằng cách nhấp vào biểu tượng của chúng.
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-17008806748721155972762.jpg"
+        alt=""
+      />
+      <br />
+      <p style="font-style: italic; text-align: center">
+        Giao diện Windows 1.01
+      </p>
+      <p>
+        Windows 1.0 cũng đi kèm với một số ứng dụng mà người dùng ngày nay đã
+        quen thuộc. Notepad, Paint và Calc (Máy tính) là ba chương trình đi kèm
+        với Windows 1.0 và vẫn là một phần của dòng hệ điều hành Windows kể từ
+        đó. Người dùng cũng có thể chọn các chương trình Write (trình xử lý văn
+        bản), Đồng hồ, Reversi (trò chơi), Clipboard và Lịch từ MS-DOS
+        Executive. Ngày nay, bạn có thể xem Windows 1.0 trông như thế nào trên
+        trang giả lập PC IBM này.
+      </p>
+      <p style="font-weight: bold" class="bold">
+        Cuộc cách mạng Windows thật sự bắt đầu vào năm 1995
+      </p>
+      <p>
+        Microsoft đã trì hoãn việc phát hành Windows 1.0 nhằm thực hiện một số
+        sửa đổi và cải tiến bổ sung. Lịch sử của Windows bắt đầu khi phiên bản
+        Windows 1.0 chính thức đầu tiên xuất hiện vào tháng 11 năm 1985, hai năm
+        sau khi Microsoft công bố nó. Microsoft ra mắt Windows 1.0 tại Mỹ với
+        mức giá phải chăng là 99 USD.
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-17008806767101268580880.jpg"
+        alt=""
+      />
+      <br />
+      <p style="font-style: italic; text-align: center">
+        Bill Gates cầm những chiếc đĩa mềm Windows 1.0
+      </p>
+      <p>
+        Tuy nhiên, đáng tiếc là người dùng thực sự không ấn tượng bởi Windows
+        1.0. Hệ điều hành Windows đầu tiên có một số vấn đề về hiệu suất và khả
+        năng tương thích phần mềm. Nhiều đánh giá thời đó nhận xét Windows 1.0
+        là một sự thất bại. Cuối cùng, hầu hết người dùng thích gắn bó với các
+        lệnh MS-DOS trong suốt những năm còn lại của thập niên 1980. PC của
+        những năm 1980 chưa hoàn toàn sẵn sàng cho hệ điều hành GUI. Hệ điều
+        hành đồ họa yêu cầu sức mạnh nặng nề hơn khiến phần cứng hạn chế của hầu
+        hết PC thời điểm đó gặp vấn đề hiệu năng. Phần cứng PC cần khoảng 7 đến
+        10 năm để phát triển trước khi cuộc cách mạng Windows thực sự bắt đầu
+        vào năm 1995. Windows cuối cùng đã đạt được thành công lớn vào năm 1995.
+        Việc thêm menu Start và thanh tác vụ vào Windows 95 đã tạo nên sự khác
+        biệt, có thể nói Windows 95 chính là phiên bản đã giúp định hình Windows
+        mà chúng ta biết ngày nay. PC vào giữa những năm 1990 cũng được trang bị
+        tốt hơn nhiều để xử lý nền tảng GUI. Sau đó, dòng hệ điều hành Windows
+        đã thống trị thị trường máy tính để bàn và MS-DOS dần biến mất.
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-1700880678825818101052.jpg"
+        alt=""
+      />
+      <br />
+      <p style="font-style: italic; text-align: center">
+        Windows 95 mang đến những tính năng cốt lõi được sử dụng đến ngày nay
+      </p>
+      <p>
+        Ngày nay, khó có thể tưởng tượng một hệ điều hành thiếu những yếu tố của
+        Windows 95, ở một mức độ nào đó, chúng ta có thể thấy chúng ngay cả trên
+        các nền tảng cạnh tranh như các bản phân phối dựa trên Linux, macOS và
+        thậm chí cả Android.
+      </p>
+      <p style="font-weight: bold" class="bold">
+        Windows đã chiến thắng trong cuộc chiến hệ điều hành đồ họa
+      </p>
+      <p>
+        Tuy Windows 95 là phiên bản thật sự tạo nên thành công, nhưng sự ra mắt
+        của Windows 1.0 vào tháng 11 năm 1983 chắc chắn là khởi đầu, tạo nền
+        tảng cho những hệ điều hành tốt hơn mà sau này Microsoft mang đến cho
+        PC, giúp chúng trở thành những cỗ máy dễ tiếp cận hơn nhiều.
+      </p>
+      <img
+        src="https://genk.mediacdn.vn/139269124445442048/2023/11/25/-17008806805711571495043.jpg"
+        alt=""
+      />
+      <br />
+      <p style="font-style: italic; text-align: center">
+        Những đĩa mềm Windows 1.0 đầu tiên có chữ ký của Bill Gates
+      </p>
+      <p>
+        Bill Gates từng tuyên bố Windows là tương lai khi Microsoft trình làng
+        Windows 1.0, hệ điều hành đồ họa đầu tiên của mình và lời tiên tri đó đã
+        trở thành sự thật.
+      </p>
+    </body>
+  </html>
+</html>
+
+* {
+  border: none;
+  margin: 5px;
+}
+.tieude {
+  font-size: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(132, 132, 241);
+}
+img{
+  width: 1280px;
+  overflow: hidden;
+}
+
+bai2-2buoi2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Syntax</title>
+    <link rel="stylesheet" href="bai2-2buoi2.css">
+    <h1>CSS Syntax</h1>
+</head>
+<body>
+    <p>A CSS rule consists of a selector and a declaration block.</p>
+    <h3>CSS Syntax</h3>
+    <img src="https://www.w3schools.com/css/img_selector.gif" alt="">
+    <p>The selector points to the HTML element you want to style.
+        The declaration block contains one or more declarations separated by semicolons.
+        Each declaration includes a CSS property name and a value, separated by a colon.      
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+    </p>
+    <h4>Example</h4>
+    <p>In this example all <p> elements will be center-aligned, with a red text color:</p>
+    <img src="img/anhcode.png" alt=""><br>
+    <button><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1"></a>Try it Yourself!</button>
+    <p style="font-size: large;">Example Explained</p>
+    <ul>
+        <li><span >p</span> is a selector in CSS (it points to the HTML element you want to style:p ).</li>
+        <li><span >color</span>color is a property, and <span >red</span> is the property value</li>
+        <li><span >text-align</span> is a property, and <span >center</span> is the property value</li>
+    </ul>
+    <button> < previous</button>
+    <button class="right">next ></button> 
+     </html>
+
+span {
+  color: red;
+  background-color: rgb(209, 209, 209);
+}
+
+bai3-1buoi2:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bai3-1buoi2.css" />
+    <div>
+      <h1>3.1</h1>
+      <div class="box">
+      <p >This is a basic HTML page</p>
+    </div>
+  <div class="box1 size">
+    <p>Red Box</p>
+  </div>
+  <div class="box2 size">
+    <p>Blue Box</p>
+  </div>
+  <div class="box3 size">
+    <p>Green Box</p>
+  </div>
+  <h1>3.2</h1>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+<h1>3.3</h1>
+<h2>Ví dụ về trình bày bảng</h2>
+    <table>
+        <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>Địa chỉ</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Văn A</td>
+            <td>20</td>
+            <td>Hà Nội</td>
+        </tr>
+        <tr>
+            <td>Trần Văn B</td>
+            <td>22</td>
+            <td>Bắc Ninh</td>
+        </tr>
+        <tr>
+            <td>Hoàng Đức C</td>
+            <td>30</td>
+            <td>Hà Nội</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Hoàng Thị D</td>
+            <td>28</td>
+            <td>TP Hồ Chí Minh</td>
+        </tr>
+        <tr>
+            <td>Lê Văn K</td>
+            <td>22</td>
+            <td>Thanh Hóa</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Hoàng Tấn T</td>
+            <td>15</td>
+            <td>Trà Vinh</td>
+        </tr>
+        <tr>
+          <td>Nguyễn thị N</td>
+          <td>40</td>
+          <td>Đắk Lắk</td>
+        </tr>
+    </table>
+  </body>
+</html>
+
+.box {
+  background: gray;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px;
+  border: 2px solid rgb(95, 57, 57);
+}
+.size {
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: green;
+}
+ul li {
+  color: blue;
+}
+tr:nth-child(even) {
+  background-color: rgb(234, 232, 232);
+}
+tr:hover {
+  background-color: #ddd;
+}
+th {
+  background-color: green;
+}
+
+
+bai3-2buoi2:
+
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <head>
+            <title>Document</title>
+        </head>
+        <body>
+            <p><strong> Image Transparency</strong></p>
+            <p>The opacity property is often used together with the: hover selecyor to change the opacity on mouse-over:</p>
+       </body>
+        </html>
+</html>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .img-container {
+                display: flex;
+                gap: 10px;
+            }
+            .img-container .img-item {
+                width: 25%;
+                opacity: 0.7;
+                transition: 0.5s ease;
+            }
+            .img-container .img-item:hover {
+                opacity: 1;
+            }
+            .img-container img {
+                max-width: 100%;
+            }
+        </style>
+        <div class="container">
+            <div class="img-container">
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-10.jpg"
+                    alt="Ảnh 1"
+                    class="img-item"
+                />
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-11.jpg"
+                    alt="Ảnh 2"
+                    class="img-item"
+                />
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-14.jpg"
+                    alt="Ảnh 3"
+                    class="img-item"
+                />
+            </div>
+        </div>
+    </body>
+</html>
+
+bai4-1buoi2:
+
+
+<!DOCTYPE html>
+<html lang="Vietnam">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai4buoi2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <div class="khung">
+</head>
+    <h1 id="tiede">Mạng xã hội Lotus chính thức ra mắt người dùng Việt</h1>
+<body>
+    <div class="tong">
+    <h4>Tối 16/9,mạng xã hội Lotus đã chính thức được ra mắt người dùng Việt tại Cung Hữu nghị Việt-Xô (Hà Nội).Lotus được kỳ vọng nếu thành công sẽ góp phần để đến 2020, người dùng các mạng xã hội Việt Nam sẽ tương đương người Việt Nam dùng các mạng xã hội nước ngoài ...</h4>
+    <h3>TIN LIÊN QUAN</h3>
+    <ul>
+        <li><a href="#">Mạng xã hội "Made in Vietnam" Lotus có cạnh với Facebook</a></li>
+        <li><a href="#">Mạng xã hội "Made in Vietnam" Lotus : Nội dung là vua</a></li>
+        <li><a href="#">MXH Việt Nam "Lotus" đã mở cho đăng kí tài khoản và dùng thử</a></li>
+    </ul>
+    <p>Mạng xã hội Lotus là sản phẩm được hoàn thành với 200 kỹ sư công nghệ Việt, họ đã "giải" những bài toàn chính như: cá nhân hóa dòng tin và các luồng thông tin; các thuật toán giới thiệu, chọn lựa thông tin liên quan tùy theo ngữ cảnh; lưu trữ, đọc và phân tích dữ liệu siêu lớn; Các bài toán nhận dạng hình ảnh, chữ phục vụ việc bảo vệ bản quyền, chống spam, chống gian lận, an ninh mạng, quản trị comments. Các kỹ sư của VCcorp đã tự làm chủ cáccông nghệ khó như AI, Big Data, Data Mining, image Processing... triển khai cho mạng Lotus. Lotus được xây dựng bởi 3 trụ chính bao gồm: Nội dung, sản phẩm và cộng đồng. Để có nội dung ban đầu tốt, Lotus đã hợp tá với hơn 500 nhà sáng tạo nội dung trong 20 lĩnh vực khác nhau bao gồm giáo dục, kinh tế, nhiếp ảnh, viết truyện,    blog,    vlog,    lifestyle,    giải    trí,    âm    nhạc,    marketing...</p>
+    <img src="./anh.img/lotus-1.png" alt="anh1">
+<br>
+    <p>Phát biểu  tại  buổi  lễ ra  mắt mạng xã hội  Lotus,  Bộ Trưởng  Bộ Thông tin và Truyền thông Nguyễn Mạnh Hùng đánh giá cao nỗlực của VC Corp khi nghiên cứu và xây dựng mạng xã hội Lotus. Theo Bộ trưởng, Lotus là sự dấn thân đầu tư của doanh nghiệp công nghệ vào một lĩnh vực khó, khi mà thị trường đã bị thống trị bởi những gã khổng lồ toàn cầu. Tuy nhiên, mạng xã hội rồi cũng cần một 
+        cách tiếp cận mới. Giá trị khổng lồ được cộng đồng tạo ra không thể một người làm nền tảng hưởng hết mà phải được chia sẻ. Cộng đồng có nhu cầu được kiểm soát luật chơi, họ phải là chủ nhân của cuộc chơi chứ không phải là nạn nhân của thuật toán giấu kín. Theo Bộ trưởng, nền tảng có thể là toàn cầu nhưng phải cho phép tạo ra những Sub-Platforms để giải những bài toán mang tính ngữ cảnh cụ thể.</p>
+<img id="anh2" src="./anh.img/lotus-2.png" alt="anh2">   
+<p>Đã là nền tảng thì phải đủ sạch để tạo môi trường lành mạnh, những gì vi phạm những giá trị cốt lõi
+    của nhân loại, của đạo đức xã hội thì phải được nền tảng tự động loại bỏ. Đề cao hợp tác, hợp tác
+    với các ngành, các cá nhân để đưa lên nền tảng các giá trị mới. Theo Bộ trưởng Nguyễn Mạnh
+    Hùng, mạng xã hội Lotus mà hôm nay khai trương chính là một sản phẩm của làn sóng Internet thứ
+    ba, một tiếp cận theo cách mới. Bộ trưởng Nguyễn mạnh Hùng đánh giá mạng xã hội Lotus là sự
+    gặp nhau của những người làm công nghệ khát khao một mạng xã hội đời mới, cách tiếp cận mới,
+    công nghệ mới, đáp ứng những nhu cầu mới và những nhà đầu tư Việt Nam có khát vọng Việt Nam
+    hùng cường, kết hợp với chương trình "Make in Vietnam" của Chính phủ.
+    </p> 
+    <br>
+    <p>Bộ trưởng Nguyễn Mạnh Hùng chúc cho Lotus kiên trì mục tiêu để thành công. Thành công của
+        Lotus góp phần gây cảm hứng cho các doanh nghiệp công nghệ Việt Nam khác đang dấn thân
+        Make in Vietnam, tạo ra sản phẩm công nghệ Việt Nam và từ đó đi ra toàn cầu. Theo Bộ trưởng,
+        thành công của Lotus sẽ góp phần để đến 2020, người dùng các mạng xã hội Việt Nam sẽ tương
+        đương người Việt Nam dùng các mạng xã hội nước ngoài.
+        </p>
+    </div> 
+    <br>
+    <p class="author">Hien Mai</p>
+</div> 
+    </html>
+
+bai4-2buoi2:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web của Nguyễn Thị Vân Anh</title>
+        <link rel="stylesheet" href="styles5.css" />
+    </head>
+
+        <header class="header">
+                <ol>
+                    <li><a href="./anh.img/avatar.jpg"><span style="color: blue;">Ảnh cá nhân</a></span></li>
+                    <nav>
+                        <a href="#info">Thông tin cá nhân</a>
+                        <a href="#interests">Sở thích</a>
+                        <a href="#skills">Khả năng</a>
+                        <a href="#education">Quá trình học tập</a>
+                        <a href="#career">Định hướng công việc</a>
+                    </nav>
+                    <li><a href="#"><span style="color: blue;">Email: anhv7155@gmail.com</a></li></span>
+                </ol>
+        </div>
+        <div class="main">
+            <div class="container">  
+            <h1> Chào mừng đến với webside của vanz.ahn_"</h1><br><br>
+            <h2>Thông tin cá nhân</h2>
+    <p>Nguyễn Thị Vân Anh</p>
+</section>
+
+<section id="interests">
+    <h2>Sở thích</h2>
+    <p>Nghe nhạc, đi biển, thích ăn cơm nhà nhưng không thích nấu</p>
+</section>
+
+<section id="skills">
+    <h2>Khả năng</h2>
+    <p>Có khả năng trong lĩnh vực giao tiếp, tìm hiểu và xử lý thông tin về các bài toán</p>
+</section>
+
+<section id="education">
+    <h2>Quá trình học tập</h2>
+    <p>Đạt trình độ 12/12. Hiện đang là sinh viên năm 2 ngành Toán ứng dụng của trường Đại học Thủ đô Hà Nội</p>
+</section>
+
+<section id="career">
+    <h2>Định hướng công việc</h2>
+    <p>Trở thành nhà toán học trong các viện nghiên cứu như Viện Toán học hoặc Viện Hàn lâm Khoa học và Công nghệ Việt Nam</p>
+</section>
+<section id="exercises" class="exercises"></section>
+            </div>
+            <div>
+            <h2>Bài tập buổi 2</h2>
+            <ul class="buoi1">
+                <li>
+                    <a href="bai1buoi2.html"><span style="color: blue;">Bài 1 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai2-1buoi2.html"><span style="color: blue;">Bài 2-1 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai2-2buoi2.html"><span style="color: blue;">Bài 2-2 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai3-1buoi2.html"><span style="color: blue;">Bài 3-1 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai3-2buoi2.html"><span style="color: blue;">Bài 3-2 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai4-1buoi2.html"><span style="color: blue;">Bài 4-1 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="bai4-2buoi2.html"><span style="color: blue;">Bài 4-2 buổi 2</span></a>
+                </li>
+                <li>
+                    <a href="moanh.html"><span style="color: blue;">file text</a></span>
+                </li>
+            </div>
+
+        <div class="image-container">
+            <img src="https://i.pinimg.com/originals/56/a7/b8/56a7b8e4953907848148e15efa28ae81.gif" alt="emoji cảm ơn">
+        </div>
+    </body>
+</html>
